@@ -38,7 +38,7 @@ jobs:
     needs: build
     environment:
       name: github-pages
-      url: https://oOtroyOo.github.io/vite/
+      url: https://oOtroyOo.github.io/ali-vite-react/
     steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v5
